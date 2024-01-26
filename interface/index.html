@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API de Documentos Jurídicos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>API de Documentos Jurídicos</h1>
+    <div>
+      <label for="documentInput">Caminho do Documento:</label>
+      <input type="file" id="documentInput" accept=".pdf, .docx, .jpg, .png">
+      <button onclick="uploadDocument()">Enviar Documento</button>
+    </div>
+    <div>
+      <label for="searchQuery">Consulta de Busca:</label>
+      <input type="text" id="searchQuery">
+      <button onclick="searchDocuments()">Buscar Documentos</button>
+    </div>
+    <div>
+      <label for="documentId">ID do Documento:</label>
+      <input type="text" id="documentId">
+      <button onclick="updateDocument()">Atualizar Documento</button>
+      <button onclick="deleteDocument()">Excluir Documento</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
