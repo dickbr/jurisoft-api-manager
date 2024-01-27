@@ -1,7 +1,7 @@
-# API - Gerenciador de Arquivos
+# API - Gerenciador de Arquivos Juridicos
 
 ## Descrição
-Esta é a API do Gerenciador de Arquivos com Express. A API cria e autentica usuario e realizar upload de arquivos.
+Esta é a API do Gerenciador de Arquivos Juridicos Feita em Express. A API cria e autentica usuario e realizar upload de arquivos.
 
 ## Instalação
 
