@@ -53,7 +53,7 @@ Tecnologias Utilizadas
 
 Scripts
 
-    yarn build: Compila o projeto.
+    yarn test: Teste unitario.
     yarn start: Inicia o servidor de produção.
     yarn dev: Inicia o servidor de desenvolvimento.
 
